@@ -1,0 +1,82 @@
+/* Global style */
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ @font-face {font-family:'Print Dashed';
+src:url("fonts/PRIND___.eot?") format("eot"),
+url("fonts/PRIND___.woff") format("woff"),
+url("fonts/PRIND___.ttf") format("truetype"),
+url("fonts/PRIND___.svg#PrintDashed") format("svg");font-weight:normal;font-style:normal;}
+
+*{
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box; 
+}
+
+.center{
+	text-align: center
+      }
+ .center_icon{
+ 	margin-left: 50%
+ }
+  
+#top {
+	margin-top: 10px !important;
+}
+
+/* Header, Footer : couleur & border; */
+.ui-header, .ui-footer{
+	border-width: 0px 0 !important;
+}
+
+ .ui-page-theme-a .ui-bar-inherit {
+ 	background-color: #F9F2EC !important;
+ }
+
+.ui-page {
+	background-color:  #F9F2EC !important;
+	
+}
+
+.ui-content{
+	/* margin-top: 20px !important; */
+	background-color: #D26644;
+	text-shadow:none;
+	margin-left:10px;margin-right:10px;
+	border-radius: 10px !important;
+	height:280;
+	
+}
+.ui-block-a{
+	border-radius: 7px !important;
+}
+.ui-block-b{
+border-radius: 7px !important;
+}
+.ui-block-c
+{
+	border-radius: 7px !important;
+} 
+.ui-block-d{
+border-radius: 7px !important;
+}
+ .ui-block-e{
+ 	border-radius: 7px !important;
+ }
+#saviez_vous{
+background-color:rgba(89,57,62, 0.5);
+text-shadow:none;
+margin-left:10px;
+margin-right:10px; 
+height:60px; 
+line-height:30px
+
+}
+
+#que_feriezvous{
+background-color:rgba(89,57,62, 0.5);
+text-shadow:none;
+margin-left:10px;
+margin-right:10px; 
+height:60px; 
+line-height:60px;
+}
+
